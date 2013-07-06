@@ -1,4 +1,13 @@
 @import '../styles/base.css';
 @import '../styles/skeleton.css';
-#header{padding:20px 0;}
-#header h1{cursor:pointer}
+#header {
+  padding: 20px 0;
+}
+#header h1 {
+  cursor: pointer;
+}
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */

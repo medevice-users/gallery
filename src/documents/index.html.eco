@@ -17,10 +17,12 @@ title: 'Home'
 <h2>Posts</h2>
 
 <ul>
-	<% for document in @documents: %>
-		<% if document.url.indexOf('/posts') == 0: %>
+	<% console.log('all posts', @getCollection('posts').toJSON( ), 'DONE') %> 
+	<% for doc in @getCollection('posts').toJSON( ): %>
+    <% console.log('doc', doc) %> 
+		<% if doc.url.indexOf('/posts') == 0: %>
 		<li>
-			<a href="<%= document.url %>"><%= document.title %></a>
+			<a href="<%= doc.url %>"><%= doc.title %></a>
 		</li>
 		<% end %>
 	<% end %>

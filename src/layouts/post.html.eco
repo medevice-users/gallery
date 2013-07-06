@@ -4,7 +4,7 @@ layout: 'default'
 
 <article>
 	<h2><%= @document.title %></h2>
-	<p class="when"><%= @document.date.toShortDateString() %></p>
+	<p class="when"><%= @document.date.toDateString() %></p>
 	<%- @content %>
 </article>
 
@@ -14,7 +14,7 @@ layout: 'default'
 		<h3>Related Posts</h3>
 		<ul>
 			<% for document in @document.relatedDocuments: %>
-				<li><span><%= document.date.toShortDateString() %></span>
+				<li><span><%= document.date.toDateString() %></span>
 				&raquo;
 				<a href="<%= document.url %>"><%= document.title %></a></li>
 			<% end %>

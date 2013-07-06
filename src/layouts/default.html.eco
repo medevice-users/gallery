@@ -35,7 +35,7 @@
 		<div class="three columns">
 			<nav>
 				<ul>
-					<% for document in @documents: %>
+          <% for document in @getCollection('posts').toJSON( ): %>
 						<% if document.url.indexOf('/pages') == 0: %>
 						<li>
 							<a href="<%= document.url %>"><%= document.title %></a>
