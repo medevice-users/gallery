@@ -17,9 +17,7 @@ title: 'Home'
 <h2>Posts</h2>
 
 <ul>
-	<% console.log('all posts', @getCollection('posts').toJSON( ), 'DONE') %> 
 	<% for doc in @getCollection('posts').toJSON( ): %>
-    <% console.log('doc', doc) %> 
 		<% if doc.url.indexOf('/posts') == 0: %>
 		<li>
 			<a href="<%= doc.url %>"><%= doc.title %></a>
