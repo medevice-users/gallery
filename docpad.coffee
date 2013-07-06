@@ -77,10 +77,11 @@ docpadConfig =
     pages: (database) ->
       database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
+    # This one, will fetch in all documents that will be outputted to the posts
+    # directory
     posts: (database) ->
-      #database.createLiveChildCollection().findAll(layout: 'post.html.eco').setComparator(date:1)
-      # database.findAllLive({relativeOutDirPath:'posts'},[date:-1])
-      @getCollection('documents').findAllLive({relativeOutDirPath:'posts'},[date:-1])
+      database.findAllLive({relativeOutDirPath:'posts'},[date:-1])
+
 
   # DocPad Events
   # =============
@@ -90,7 +91,8 @@ docpadConfig =
   events:
 
     # Server Extend
-    # Used to add our own custom routes to the server before the docpad routes are added
+    # Used to add our own custom routes to the server before the docpad routes
+    # are added
     serverExtend: (opts) ->
       # Extract the server from the options
       {server} = opts

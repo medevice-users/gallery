@@ -1,2 +1,6 @@
 .*.sw?
 node_modules/
+out/
+.idea/
+.DS_Store
+*.iml
