@@ -3,7 +3,7 @@ before_script:
 - export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
 - ./prebuild.sh
 script:
-- docpad deploy-ghpages -d
+- docpad deploy-ghpages
 env:
   global:
   - FOO="BAR"
