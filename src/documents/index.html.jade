@@ -1,5 +1,6 @@
 --- yaml
 layout: 'default'
+pageOrder: 3
 title: 'Home'
 scripts:
   - http://diabetesvisualization.t1dtechnology.info/wp-content/themes/portfolio-press/js/theme.js
@@ -8,18 +9,14 @@ scripts:
 // Main hero unit for a primary marketing message or call to action.
 .full-width#portfolio
 
-  p: :markdown
-    Send use your visualisation!
-  - var last = getCollection('posts').toJSON( ).slice(0, 1)[0]
-  != last.contentRenderedWithoutLayouts
 
 
-  - var posts = getCollection('posts').toJSON( ).slice(1, 6)
+  - var posts = getCollection('posts').toJSON( ).slice(0, 6)
   - var default_thumb = 'https://upload.wikimedia.org/wikipedia/commons/0/0d/InsulinHexamer.jpg'
   each doc in posts
     .portfolio-item
       a.thumb(href=doc.url, style='opacity: 1;')
-        img(src=(doc.thumbnail_url || default_thumb), height=224, width=314)
+        img(src=(doc.thumbnail_url || default_thumb), width=314, height=224, scale=0)
       a.title-overlay(href=doc.url, rel="bookmark", style='opacity: 0;')
         =doc.title
 

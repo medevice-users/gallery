@@ -11,6 +11,9 @@ article#post.post
       span.when= document.date.toDateString()
   .post-content.entry-content!= content
 
+unless !document.survey
+  iframe(src=document.survey, width="650", height="550")
+
 footer
   if document.relatedDocuments && document.relatedDocuments.length
     section#related

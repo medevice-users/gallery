@@ -18,8 +18,7 @@ docpadConfig =
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
-        'www.website.com',
-        'website.herokuapp.com'
+        # 'www.website.com',
       ]
 
       # The default title of our website
@@ -27,12 +26,14 @@ docpadConfig =
 
       # The website description (for SEO)
       description: """
-        Visualizing diabetes data.
+        Visualizing diabetes data.  Redesigning diabetes care from the
+        bazaar.
         """
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-        visualisations, gallery, blog, type 1 diabetes
+        visualisations, gallery, blog, type 1 diabetes,
+        open source, diabetes design
         """
 
       # The website author's name
