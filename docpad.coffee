@@ -129,7 +129,7 @@ docpadConfig =
     development:
       templateData:
         site:
-          url: "http://localhost:#{port}/"
+          url: "http://localhost:#{port}/index.html"
 
 # Export our DocPad Configuration
 module.exports = docpadConfig
