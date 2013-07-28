@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo "GIT_NAME $GIT_NAME"
-echo "GIT_EMAIL $GIT_EMAIL"
-echo "HELLO WORLD [via travis] $GIT_NAME <$GIT_EMAIL>"
+echo "HELLO WORLD set up $GH_REPO [via travis] for $GIT_NAME <${GIT_EMAIL}>"
 export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
 git config user.email "$GIT_EMAIL"
 git config user.name "$GIT_NAME"

@@ -8,5 +8,4 @@ env:
   global:
   - FOO="BAR"
   - GH_REPO="medevice-users/gallery"
-  - secure: SKM4QwO2fa7HBM0M6174mjehFCAV0Fy6cqR9EHvEs8eixFVerepHoIGeK7z/NpAcJgTLMt2mJmWI+KBF4/kva2SUJq3OKZ/MiZtDSWjveTTRaERZIoVBLdLYA6Y/eplD42EkbYYuCyOGDy7POTxDWk9iVuaZvhEnSt1I+OdMFB0=
-  - secure: Kli7XYXWxlGa2J8CZBrN0G7YGvCOBRP8Ej55fGuJgQsEF5xJCjgAd61psyvzsFiidh1fqcTE0HI1TJvwMVv5jHnSv+8yPb/V1/EIHw0+ssndcL35N7bxejWU6Z5vPyVO9OCOnCiaZTQkckNvPsQ1DxE7lu49k3HhUSpzN9h8bCE=
+  - secure: aMM5TtJlbdW8KWQRsyeoJRvPtk07Vn58T9yigJo1NxEikUHChZhUrkugkFEwhZcjwSgRFcvVCrcK6EUwl6Gk48Rxr9nXX0GB7LaCNLXxtcBIvkfaXCzWdSKfzC9hMuOOOOF2lk/Qp6INGSIaAa0JQmI6wzzQj4uBl/+9dENKjio=
