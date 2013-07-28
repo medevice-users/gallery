@@ -1,16 +1,14 @@
-
 language: node_js
 before_script:
-  - export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
-  - git config --global user.email 'bewest+insulaudit@gmail.com'
-  - git config --global user.name 'Ben West [via travis]'
-  - git remote rename origin source
-  - git remote add origin $REPO_URL
+- export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
+- git config user.email 'bewest+insulaudit@gmail.com'
+- git config user.name 'Ben West [via travis]'
+- git remote rename origin source
+- git remote add origin $REPO_URL
 script:
-  - docpad deploy-ghpages
+- docpad deploy-ghpages
 env:
   global:
-    - FOO="BAR"
-    - GH_REPO="medevice-users/gallery"
-    - secret="JXAcNcWpPMqqmjOZ+wbZvdquk/yeUT9pgpHRo4X5BDOiCaVhAYzEsqlgI5poWfSbHHfhcqnbYmsqUNtzHDimRoABoYVVbytD4o57Bo2jukDyNgZFHOrCtKUUOojU60avb876FhtBuCYcb/DoDWFY3qAZhvplunC4v4c5gt5XSKk="
-
+  - FOO="BAR"
+  - GH_REPO="medevice-users/gallery"
+  - secure: SKM4QwO2fa7HBM0M6174mjehFCAV0Fy6cqR9EHvEs8eixFVerepHoIGeK7z/NpAcJgTLMt2mJmWI+KBF4/kva2SUJq3OKZ/MiZtDSWjveTTRaERZIoVBLdLYA6Y/eplD42EkbYYuCyOGDy7POTxDWk9iVuaZvhEnSt1I+OdMFB0=

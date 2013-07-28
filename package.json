@@ -1,20 +1,20 @@
 {
   "name": "gallery",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "visualisation gallery",
   "keywords": [
     "docpad-skeleton",
     "docpad",
     "website",
-    "bootstrap",
-    "twitter bootstrap"
+    "diabetes visualisation",
+    "visualizing data"
   ],
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "",
+  "repository": "git@github.com:medevice-users/gallery.git",
+  "author": "Medevice collaborators",
   "license": "BSD",
   "devDependencies": {
     "docpad-plugin-livereload": "2.x"
