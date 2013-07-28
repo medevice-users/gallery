@@ -6,7 +6,7 @@ Comparing and contrasting ways to look at data.
 
 ## Getting Started
 
-1.  [Install DocPad](https://github.com/bevry/docpad)
+1. [Install DocPad](https://github.com/bevry/docpad)
 1. [Open http://localhost:9778/](http://localhost:9778/)
 1. Start hacking away by modifying the `src` directory
 
@@ -18,6 +18,7 @@ Comparing and contrasting ways to look at data.
 * http://rogerz.github.io/blog/2013/02/21/prose-io-github-travis-ci/
 * https://github.com/rogerz/rogerz.github.com/blob/49e2c9c4b20748300a2db67a7b23a8a584cad86e/.travis.yml
 * https://github.com/docpad/docpad-plugin-ghpages/blob/master/src/ghpages.plugin.coffee
+* http://awestruct.org/auto-deploy-to-github-pages/
 
 ### docpad-plugin-ghpages
 

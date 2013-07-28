@@ -2,8 +2,9 @@
 
 echo "BUMP HELLO WORLD set up $GH_REPO [via travis] for $GIT_NAME <${GIT_EMAIL}>"
 export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
-git config user.email "$GIT_EMAIL"
-git config user.name "$GIT_NAME"
+git config --global user.email "$GIT_EMAIL"
+git config --global user.name "$GIT_NAME"
+git branch -a
 echo "STATUS"
 git status
 git remote rename origin old
