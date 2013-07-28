@@ -8,20 +8,19 @@ title: 'Home'
 
   p: :markdown
     Send use your visualisation!
-  - var last = getCollection('posts').toJSON( )
+  - var last = getCollection('posts').toJSON( ).slice(0, 1)[0]
   != last.contentRenderedWithoutLayouts
 
 
 // Example row of columns.
 .row
-  .span6
-    h2 Docpad
-    p DocPad takes that good ol' simple approach of writing files and wraps it with the best modern innovations, providing an awesome intuitive, liberating and empowering solution for HTML5 web development.</p>
-    p: a.btn(href="https://github.com/bevry/docpad") Visit Website
-  .span6
-    h2 Twitter Bootstrap
-    p Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.</p>
-    p: a.btn(href="http://twitter.github.com/bootstrap/") Visit Website
+  - var posts = getCollection('posts').toJSON( ).slice(1, 6)
+  each doc in posts
+    .span6
+      h2
+        a(href=doc.url)= doc.title
+      unless doc.preview
+        pre= doc.preview
 
 
 .row
