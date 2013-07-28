@@ -8,9 +8,13 @@
 //- jQuery
 - scripts.add(["/vendor/jquery.js"])
 
+
 //- Bootstrap
 - scripts.add(["/vendor/twitter-bootstrap/js/bootstrap.js"])
 - styles.add(["/vendor/twitter-bootstrap/css/bootstrap.css", "/vendor/twitter-bootstrap/css/bootstrap-responsive.css", "/vendor/portfolio-press.css" ])
+
+ 
+
 
 //- Other Scripts
 - scripts.add(["/vendor/log.js","/vendor/modernizr.js"])
@@ -18,6 +22,9 @@
 //- User
 - styles.add(["/styles/style.css"])
 - scripts.add(["/scripts/script.js"])
+
+// page
+- scripts.add(document.scripts || [ ])
 
 doctype 5
 html(lang="en")

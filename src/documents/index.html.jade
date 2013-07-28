@@ -1,10 +1,12 @@
 --- yaml
 layout: 'default'
 title: 'Home'
+scripts:
+  - http://diabetesvisualization.t1dtechnology.info/wp-content/themes/portfolio-press/js/theme.js
 ---
 
 // Main hero unit for a primary marketing message or call to action.
-.hero-unit
+.full-width#portfolio
 
   p: :markdown
     Send use your visualisation!
@@ -12,15 +14,14 @@ title: 'Home'
   != last.contentRenderedWithoutLayouts
 
 
-// Example row of columns.
-.row
   - var posts = getCollection('posts').toJSON( ).slice(1, 6)
+  - var default_thumb = 'https://upload.wikimedia.org/wikipedia/commons/0/0d/InsulinHexamer.jpg'
   each doc in posts
-    .span6
-      h2
-        a(href=doc.url)= doc.title
-      unless doc.preview
-        pre= doc.preview
+    .portfolio-item
+      a.thumb(href=doc.url, style='opacity: 1;')
+        img(src=(doc.thumbnail_url || default_thumb), height=224, width=314)
+      a.title-overlay(href=doc.url, rel="bookmark", style='opacity: 0;')
+        =doc.title
 
 
 .row
