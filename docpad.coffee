@@ -23,7 +23,7 @@ docpadConfig =
       ]
 
       # The default title of our website
-      title: "Type 1 Diabetes Visualisations"
+      title: "Diabetes Visualisations"
 
       # The website description (for SEO)
       description: """
