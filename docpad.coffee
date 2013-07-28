@@ -52,6 +52,12 @@ docpadConfig =
       return @site.url + (document.url or document.get?('url'))
 
 
+    getAuthor: (document) ->
+      author = @site.author
+      if document and document.author
+        author = document.author
+      return author
+
     # Get the prepared site/document title
     # Often we would like to specify particular formatting to our page's title
     # we can apply that formatting here

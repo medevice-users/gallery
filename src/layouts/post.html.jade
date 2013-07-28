@@ -3,8 +3,13 @@ layout: default
 ---
 
 article#post.post
-  h1= document.title
-  .post-content!= content
+  header.entry-header
+    h1= document.title
+    p
+      span.author= getAuthor(document)
+      | on
+      span.when= document.date.toDateString()
+  .post-content.entry-content!= content
 
 footer
   if document.relatedDocuments && document.relatedDocuments.length
