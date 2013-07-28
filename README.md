@@ -10,6 +10,8 @@ Comparing and contrasting ways to look at data.
 1. [Open http://localhost:9778/](http://localhost:9778/)
 1. Start hacking away by modifying the `src` directory
 
+[![Build Status](https://travis-ci.org/medevice-users/gallery.png?branch=master)](https://travis-ci.org/medevice-users/gallery)
+
 ## Useful
 
 * https://gist.github.com/balupton/3939146
