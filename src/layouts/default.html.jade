@@ -2,22 +2,22 @@
 - var styles = getBlock('styles')
 
 //- Prettify Syntax Highlighting
-- scripts.add(["vendor/prettify.js"])
-- styles.add(["vendor/prettify.css"])
+- scripts.add(["/vendor/prettify.js"])
+- styles.add(["/vendor/prettify.css"])
 
 //- jQuery
-- scripts.add(["vendor/jquery.js"])
+- scripts.add(["/vendor/jquery.js"])
 
 //- Bootstrap
-- scripts.add(["vendor/twitter-bootstrap/js/bootstrap.js"])
-- styles.add(["vendor/twitter-bootstrap/css/bootstrap.css","vendor/twitter-bootstrap/css/bootstrap-responsive.css"])
+- scripts.add(["/vendor/twitter-bootstrap/js/bootstrap.js"])
+- styles.add(["/vendor/twitter-bootstrap/css/bootstrap.css","vendor/twitter-bootstrap/css/bootstrap-responsive.css"])
 
 //- Other Scripts
-- scripts.add(["vendor/log.js","vendor/modernizr.js"])
+- scripts.add(["/vendor/log.js","vendor/modernizr.js"])
 
 //- User
-- styles.add(["styles/style.css"])
-- scripts.add(["scripts/script.js"])
+- styles.add(["/styles/style.css"])
+- scripts.add(["/scripts/script.js"])
 
 doctype 5
 html(lang="en")
@@ -37,6 +37,8 @@ html(lang="en")
     meta(name="description", content=getPreparedDescription())
     meta(name="keywords", content=getPreparedKeywords())
     meta(name="author", content=site.author || '')
+
+    base(href=site.url)
 
     //- Output DocPad produced meta elements
     != getBlock('meta').toHTML()

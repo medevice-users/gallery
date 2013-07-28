@@ -1,7 +1,9 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
+port = process.env.PORT || 9778
 docpadConfig =
 
+  port: (port)
   # Template Data
   # =============
   # These are variables that will be accessible via our templates
@@ -12,7 +14,7 @@ docpadConfig =
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://bewest.github.io/hello.docpad"
+      url: "http://medevice-users.github.io/gallery/"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
@@ -21,30 +23,34 @@ docpadConfig =
       ]
 
       # The default title of our website
-      title: "Your Website"
+      title: "Type 1 Diabetes Visualisations"
 
       # The website description (for SEO)
       description: """
-        When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+        Visualizing diabetes data.
         """
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-        place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+        visualisations, gallery, blog, type 1 diabetes
         """
 
       # The website author's name
-      author: "Your Name"
+      author: "Joyce Lee"
 
       # The website author's email
-      email: "your@email.com"
+      email: "medevice@googlegroups.com"
 
       # Your company's name
-      copyright: "© Your Company 2012"
+      copyright: "© Medevice collaborators, Joyce Lee"
 
 
     # Helper Functions
     # ----------------
+    # Get absolute URL
+    getUrl: (document) ->
+      return @site.url + (document.url or document.get?('url'))
+
 
     # Get the prepared site/document title
     # Often we would like to specify particular formatting to our page's title
@@ -112,6 +118,11 @@ docpadConfig =
         else
           next()
 
+  environments:
+    development:
+      templateData:
+        site:
+          url: "http://localhost:#{port}/"
 
 # Export our DocPad Configuration
 module.exports = docpadConfig

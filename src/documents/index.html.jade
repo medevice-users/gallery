@@ -21,3 +21,16 @@ title: 'Home'
     h2 Twitter Bootstrap
     p Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.</p>
     p: a.btn(href="http://twitter.github.com/bootstrap/") Visit Website
+
+
+.row
+  .span8
+
+    ul
+      each doc in getCollection('posts').toJSON( )
+        unless doc.url.indexOf('/posts') != 0
+          li
+              a(href=doc.url)
+                = doc.title
+      else
+        li no posts
