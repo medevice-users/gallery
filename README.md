@@ -100,8 +100,10 @@ Done. Your build exited with 1.
 
 Runs equivalent of?:
 
-#### rough bash translation of 
-`[ghpages.plugin.coffee](https://github.com/docpad/docpad-plugin-ghpages/blob/master/src/ghpages.plugin.coffee)`
+#### rough bash translation of `ghpages.plugin.coffee`
+
+[`ghpages.plugin.coffee`](https://github.com/docpad/docpad-plugin-ghpages/blob/master/src/ghpages.plugin.coffee)
+
 ```bash
 
 rootPath="./" # ?
