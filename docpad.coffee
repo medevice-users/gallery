@@ -43,7 +43,7 @@ docpadConfig =
       email: "medevice@googlegroups.com"
 
       # Your company's name
-      copyright: "© Medevice collaborators, Joyce Lee"
+      copyright: "Medevice collaborators, Joyce Lee, et al"
 
 
     # Helper Functions
@@ -52,6 +52,22 @@ docpadConfig =
     getUrl: (document) ->
       return @site.url + (document.url or document.get?('url'))
 
+
+    getViewGH: ->
+      prefix = 'https://github.com/medevice-users/gallery'
+      action = 'blob/master/src/documents'
+      path = @document.relativePath
+      "#{prefix}/#{action}/#{path}"
+    getProse: ->
+      prefix = 'http://prose.io/#medevice-users/gallery'
+      edit = 'edit/master/src/documents'
+      path = @document.relativePath
+      "#{prefix}/#{edit}/#{path}"
+    getGithub: ->
+      prefix = 'https://github.com/medevice-users/gallery'
+      edit = 'edit/master/src/documents'
+      path = @document.relativePath
+      "#{prefix}/#{edit}/#{path}"
 
     getAuthor: (document) ->
       author = @site.author

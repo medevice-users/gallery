@@ -89,9 +89,14 @@ html(lang="en")
       .col-width
         section.content#content!= content
       hr
-      footer.container.col-width
-        div= site.copyright
-        div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}
+      footer.container
+        .col-width
+          div
+            By
+            = site.copyright
+            a(href=getViewGH( ), class="btn btn-link") on github.com.
+          div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}
+        
 
     // Scripts
     != scripts.toHTML()

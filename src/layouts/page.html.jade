@@ -5,3 +5,9 @@ layout: default
 article#page.page
   h1= document.title
   .page-content!= content
+
+footer.edit
+  - var editURI = getProse()
+  a(href=editURI, class="btn") Edit on prose.io
+  a(href=getGithub( ), class="btn") Edit on github.com
+

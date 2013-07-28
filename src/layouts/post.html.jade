@@ -7,7 +7,7 @@ article#post.post
     h1= document.title
     p
       span.author= getAuthor(document)
-      | on
+      = " on "
       span.when= document.date.toDateString()
   .post-content.entry-content!= content
 
