@@ -21,5 +21,5 @@ test -d out && (
   echo -n "user.name"
   git config user.name
 
-)
+) || echo "fresh build, no out directory"
 
