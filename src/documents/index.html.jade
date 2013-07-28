@@ -15,7 +15,7 @@ scripts:
   - var default_thumb = 'https://upload.wikimedia.org/wikipedia/commons/0/0d/InsulinHexamer.jpg'
   each doc in posts
     .portfolio-item
-      a.thumb(href=doc.url, style='opacity: 1;')
+      a.thumb(href='.' + doc.url, style='opacity: 1;')
         img(src=(doc.thumbnail_url || default_thumb), width=314, height=224, scale=0)
       a.title-overlay(href='.' + doc.url, rel="bookmark", style='opacity: 0;')
         =doc.title
