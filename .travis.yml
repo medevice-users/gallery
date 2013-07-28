@@ -1,10 +1,6 @@
 language: node_js
 before_script:
-- export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
-- git config user.email 'bewest+insulaudit@gmail.com'
-- git config user.name 'Ben West [via travis]'
-- git remote rename origin source
-- git remote add origin $REPO_URL
+- ./prebuild.sh
 script:
 - docpad deploy-ghpages
 env:
