@@ -13,6 +13,25 @@ Comparing and contrasting ways to look at data.
 ## Useful
 
 * https://gist.github.com/balupton/3939146
+* http://rogerz.github.io/blog/2013/02/21/prose-io-github-travis-ci/
+* https://github.com/rogerz/rogerz.github.com/blob/49e2c9c4b20748300a2db67a7b23a8a584cad86e/.travis.yml
+* https://github.com/docpad/docpad-plugin-ghpages/blob/master/src/ghpages.plugin.coffee
+
+### docpad-plugin-ghpages
+
+Runs equivalent of?:
+
+```
+rm -Rm out/.git
+( cd $rootPath; 
+  url=$(git config remote.origin.url)
+  lastCommit=$(git log --oneline | head -n 1)
+  git init
+  git add .
+  git commit -m $lastCommit
+  git push --force $url master:gh-pages
+)
+```
 
 ## License
 

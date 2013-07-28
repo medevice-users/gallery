@@ -12,4 +12,15 @@ git remote -v
 git remote add origin $REPO_URL
 git config remote.origin.url $REPO_URL
 
+echo "DEBUG, cd out"
+(
+  cd out
+  echo -n "ORIGIN.URL"
+  git config remote.origin.url
+  echo -n "user.email"
+  git config user.email
+  echo -n "user.name"
+  git config user.name
+
+)
 
