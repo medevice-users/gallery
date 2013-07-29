@@ -53,7 +53,7 @@ form under `responses`.
 [![Build Status](https://travis-ci.org/medevice-users/gallery.png?branch=master)](https://travis-ci.org/medevice-users/gallery)
 
 ## Useful
-
+Site is built using travis automatically.  If site does not update in `~20` minutes or so, email @bewest.
 
 ## License
 
