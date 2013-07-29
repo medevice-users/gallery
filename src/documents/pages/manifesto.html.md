@@ -29,7 +29,7 @@ Jonathan Harris, data visualization artist
 Storytelling has been shown to be an effective tool for persuasive communication in health, and to improve health outcomes in chronic disease.  See [Houston et al. PMID: `21242364`](http://www.ncbi.nlm.nih.gov/pubmed/21242364)
 Our concept provides an innovative way of extending this paradigm to the arena of type 1 diabetes. 
 
-### Towards data visualisations that tell story
+### Towards story telling visualisations
 
 We propose a dynamic system of interactive data visualization that anchors patient stories and observations (how diabetes is experienced in the real world) to real-time clinical diabetes data (the “numbers” of diabetes) with the intent of encouraging patients to actively identify meaningful patterns in their data; at the same time, the annotated data corpus from the broader body of users can help medical researchers to develop a more quantitative understanding about the pervasiveness of different environmental or lifestyle factors on patient health.  
 
