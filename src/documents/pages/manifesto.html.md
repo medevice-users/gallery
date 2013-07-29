@@ -1,10 +1,8 @@
 ---
 published: 
   - true
-  - "true"
 title: 
-  - New page name
-  - "Datastories: manifesto"
+  - "Towards narrative inquiry"
 layout: page
 pageOrder: "1"
 tags: "about,page"
