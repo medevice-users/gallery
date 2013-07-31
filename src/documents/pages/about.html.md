@@ -33,9 +33,11 @@ data as a community.  Bottom up, rather than top down, one visualization at a ti
 ### Participation
 
 There are three ways to participate.
-* Rate the visualizations 
-* Comment and share your opinions in the comments/mini surveys
-* Send us your own ideas for designs via twitter facebook instagram or flickr (use hashtag #diabetesvis) gist, github patches, or just plain email for posting and feedback
+
+  * Rate the visualizations 
+  * Comment and share your opinions in the comments/mini surveys
+  * Send us your own ideas for designs via twitter facebook instagram or
+    flickr (use hashtag #diabetesvis) gist, github patches, or just plain email for posting and feedback
 
 Although some of the visualizations are hard coded working visualizations, we
 recognize that not everyone has the ability to program the visualization of
