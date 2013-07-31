@@ -8,59 +8,43 @@ tags:
 published: true
 ---
 
-## Redesigning diabetes
+## The Challenge
 
-A Bazaar rather than a Cathedral approach to Diabetes.
+> Diabetes Data.  It's **`infinite`**... How can we make sense of it?
+> How can it to help you better manage diabetes?
+> Are current diabetes data visualization displays working or not working for you? 
+
+## Revisualizing diabetes
+
+This effort came about through a collaboration of members in the diabetes community,
+who wish to reimagine data visualization for diabetes.  
+
+##The Prototype
+This is a site that provides a central place for showcasing a gallery of
+diabetes visualizations, many of which have been created by the community.  
+This is an opportunity to learn what works, what doesn’t work, and what the
+community needs for visualizations!
 
 ## Goals
 
-There are design problems at multiple levels of the diabetes
-landscape, which could be addressed by the collective efforts of the
-community. The objective of this collaborative project is:
+To crowdsource and learn.  Let's create and evaluate ways of visualizing diabetes
+data as a community.  Bottom up, rather than top down, one visualization at a time. 
 
-1. To identify the design problems in diabetes;
-1. To provide a comprehensive map of these design problems, and link
-   them to possible solutions proposed by community members;
-1. To provide an
-   organizational structure to allow members of the community to serve
-   as leads volunteers and connect with other volunteers who want to
-   work on a particular problem.
+### Participation
 
-### Participate
-
-Send us your designs via twitter, gist, github patches, or flickr
-photostream.
-
-## Vision
-
-> Diabetes Data.  It's **`infinite`**... many questions:
-
-* **What do you do with it?**
-* How do you make sense of it?
-* How can you use it to help you better manage diabetes?
-* current displays: are they working for you? 
-
-This website is a collaboration between members in the diabetes community.  We
-wish to reimagine data visualization for diabetes.
-
-This is a site that provides a central place for showcasing a gallery of
-diabetes visualizations.  Many have been created by the community, and we
-encourage others who have ideas to submit their designs to us to put up in the
-gallery.
-
-Each visualization will have its own page, and has a comment section that
-allows individuals in the community to have a conversation through social
-media.  What works?  What doesn’t work? What do you wish were added or removed? 
+There are three ways to participate.
+* Rate the visualizations 
+* Comment and share your opinions in the comments/mini surveys
+* Send us your own ideas for designs via twitter facebook instagram or flickr (use hashtag #diabetesvis) gist, github patches, or just plain email for posting and feedback
 
 Although some of the visualizations are hard coded working visualizations, we
 recognize that not everyone has the ability to program the visualization of
 their dreams.  So we would be ecstatic if you even drew it on a piece of paper
 with pencil and markers, and took a picture with your cellphone, that would be
-very cool tool. 
+very cool too. 
 
 We want your participation! We hope that from the project, we can create better
-visualizations of diabetes data, that can meaningfully help individuals and
-families manage diabetes. 
+visualizations of diabetes data, that can meaningfully help individuals, families, clinicians and researchers find insight and inspiration
 
-This website came about through conversations within the diabetes community,
-including Joyce Lee, Ben West, Jamie Bate, Elsa Kaminsky, and others. 
+Thanks!  Jamie Bate, Ollie Glass, Elsa Kaminsky, Joyce Lee, Ben West, and others.
+
