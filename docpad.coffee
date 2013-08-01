@@ -45,6 +45,10 @@ docpadConfig =
       # Your company's name
       copyright: "Medevice collaborators, Joyce Lee, et al"
 
+      services:
+        googleAnalytics: 'UA-42880063-1'
+        twitterFollowButton: 'medevice'
+        githubFollowButton: 'medevice-users'
 
     # Helper Functions
     # ----------------
