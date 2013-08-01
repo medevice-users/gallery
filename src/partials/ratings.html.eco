@@ -2,46 +2,99 @@
 <% # %>
 <script type="text/javascript" src="vendor/raty.js"></script>
 <style type="text/css">
-.rating LABEL {
+.rating H6 {
   display: block;
   float: left;
+  font-weight: bold;
+  font-size: 95%;
+  width: 16ex;
+
 }
+.rating {
+  overflow: auto;
+}
+.rating .ratings {
+  float: left;
+}
+.rating .hint {
+  display: none;
+}
+
+.rating img {
+  border: 0;
+}
+
 </style>
 
 
+<section>
+
+<div class="rating hinted">
+  <span class="hint">harmful</span>
+  <span class="hint">not useful</span>
+  <span class="hint">adequate</span>
+  <span class="hint">usable</span>
+  <span class="hint">excellent</span>
+  <span class="hint">indispensible</span>
+  <h6><label>Usefulness</label></h6>
+  <div class="star ratings"> </div>
+</div>
+<div class="rating">
+  <h6><label>Uniqueness</label></h6>
+  <div class="star ratings"> </div>
+</div>
+
+<div class="rating hinted">
+  <h6><label>Beauty</label></h6>
+  <span class="hint">only a mother could love</span>
+  <span class="hint">idea is worthy</span>
+  <span class="hint">seems ok</span>
+  <span class="hint">wow</span>
+  <span class="hint">elegant</span>
+  <span class="hint">sublime</span>
+  <span class="star ratings"> </span>
+</div>
+
 <div class="summary">
-  This visualisation is
-  <span id="rating_summary"><i class="icon-star">*</i></span>.
+  <h4>Rate this visualisation</h4>
 </div>
-<div class="rating">
-  <label>Usefulness</label>: <div class="star ratings"> </div>
-</div>
-<div class="rating">
-  <label>Uniqueness</label>: <div class="star ratings"> </div>
-</div>
+<span id="rating_summary"><i class="icon-star">*</i></span>
+</section>
 
 
 <script type="text/javascript">
 $(function ( ) {
 
-  console.log('HAHAHA', $('.star.ratings'));
-  $('.star.ratings').raty({
-      path: 'img'
-    , click: function (score, evt) {
-      console.log(score, evt);
-      var cat = 'ratings',
-          label = $(this).closest('.rating')
-                         .find('LABEL').text( )
-      ;
-      _gaq.push(['_trackEvent', cat, label, score]);
-    },
-    target: '#rating_summary',
-    hints: function ( ) {
-      console.log("HINTS", this, arguments);
-      return [ 'harmful', 'not useful', 'adequate',
-             'usable', 'excellent', 'indispensible' ];
+  function submit_rating (score, evt) {
+    var cat = 'ratings',
+        label = $(this).closest('.rating')
+                       .find('LABEL').text( ),
+        data = ['_trackEvent', cat, label, score]
+    ;
+    if ($('.debug').is('.debug')) {
+      console.log('submig to GA', score, evt, "DATA", data);
     }
+    _gaq.push(data);
+  }
+
+  $('.rating.hinted').each(function ( ) {
+    var hints = [ ];
+    $(this).find('.hint').each(function ( ) {
+      hints.push($(this).text());
+    });
+    $(this).find('.star.ratings').raty({
+        path: 'img'
+      , click: submit_rating
+      , target: '#rating_summary'
+      , number: hints.length
+      , hints: hints
+    }).addClass('initialized');
   });
+  $('.star.ratings').not('.initialized').raty({
+      path: 'img'
+    , click: submit_rating
+    , target: '#rating_summary'
+  }).addClass('initialized');
 
 });
 </script>
