@@ -28,6 +28,11 @@
 
 
 <section>
+<div class="summary">
+  <h4>Rate this visualisation
+    <span id="rating_summary"><i class="icon-star">*</i></span>
+  </h4>
+</div>
 
 <div class="rating hinted">
   <span class="hint">harmful</span>
@@ -46,8 +51,8 @@
 
 <div class="rating hinted">
   <h6><label>Beauty</label></h6>
-  <span class="hint">only a mother could love</span>
-  <span class="hint">idea is worthy</span>
+  <span class="hint">fewer like these</span>
+  <span class="hint">not my taste</span>
   <span class="hint">seems ok</span>
   <span class="hint">wow</span>
   <span class="hint">elegant</span>
@@ -55,10 +60,6 @@
   <span class="star ratings"> </span>
 </div>
 
-<div class="summary">
-  <h4>Rate this visualisation</h4>
-</div>
-<span id="rating_summary"><i class="icon-star">*</i></span>
 </section>
 
 
@@ -72,7 +73,7 @@ $(function ( ) {
         data = ['_trackEvent', cat, label, score]
     ;
     if ($('.debug').is('.debug')) {
-      console.log('submig to GA', score, evt, "DATA", data);
+      console.log('submit to GA', score, evt, "DATA", data);
     }
     _gaq.push(data);
   }
@@ -99,6 +100,7 @@ $(function ( ) {
 });
 </script>
 
+<% if false: %>
 <pre>
 * usefulness 1..5
 * less/more like this 1..10
@@ -113,4 +115,5 @@ $(function ( ) {
   * my team/crew/peers 1..5
 
 </pre>
+<% end %>
 
