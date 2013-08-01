@@ -1,0 +1,10 @@
+---
+layout: post
+---
+
+<%- @content %>
+<% @getBlock('scripts').add(['vendors/raty.js']) %>
+<%- @partial('ratings.html.eco', @) %>
+
+
+
