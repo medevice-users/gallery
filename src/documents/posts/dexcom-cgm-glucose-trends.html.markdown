@@ -7,5 +7,4 @@ thumbnail_url: http://diabetesvisualization.t1dtechnology.info/wp-content/upload
 humbug: '#_'
 ---
 
-<iframe src="http://bl.ocks.org/bewest/raw/4292338/"></iframe>
 <a href="http://diabetesvisualization.t1dtechnology.info/wp-content/uploads/2013/07/DexComCGM-Glucose-Trends.png"><img src="http://diabetesvisualization.t1dtechnology.info/wp-content/uploads/2013/07/DexComCGM-Glucose-Trends.png" alt="DexComCGM Glucose Trends" width="1060" height="461" class="alignnone size-full wp-image-89" scale="0"></a>  
