@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Diabetes Visualisations</title>
+  <link href="http://medevice-users.github.io/gallery/index.html/atom.xml" rel="self"/>
+  <link href="http://medevice-users.github.io/gallery/index.html"/>
+  <updated>2013-08-02T01:52:19.811Z</updated>
+  <id>http://medevice-users.github.io/gallery/index.html</id>
+  <author>
+    <name>Joyce Lee</name>
+    <email>medevice@googlegroups.com</email>
+  </author>
+
+  
+    <entry>
+      <title>This is a Blog Post</title>
+      <link href="http://medevice-users.github.io/gallery/index.html//posts/hello"/>
+      <updated>2013-08-02T01:51:39.000Z</updated>
+      <id>http://medevice-users.github.io/gallery/index.html//posts/hello</id>
+      <content type="html">&lt;!-- page--&gt;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;!-- Meta--&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;&lt;title&gt;This is a Blog Post | Diabetes Visualisations&lt;/title&gt;&lt;meta name=&quot;description&quot; content=&quot;Visualizing diabetes data.  Redesigning diabetes care from the
+bazaar.&quot;&gt;&lt;meta name=&quot;keywords&quot; content=&quot;visualisations, gallery, blog, type 1 diabetes, open source, diabetes design&quot;&gt;&lt;meta name=&quot;author&quot; content=&quot;Joyce Lee&quot;&gt;&lt;base href=&quot;http://medevice-users.github.io/gallery/index.html&quot;&gt;&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;&lt;!-- Fonts--&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_open_sans-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_rokkitt-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Rokkitt:400,700&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;!-- Icons--&gt;&lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;&lt;script src=&quot;vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;!--[if lt IE 9]&gt;&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;&lt;!-- Styles--&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/prettify.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/portfolio-press.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;!-- Markup--&gt;&lt;header id=&quot;branding&quot; class=&quot;navbar navbar-fixed-top&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;hgroup id=&quot;logo&quot;&gt;&lt;div id=&quot;site-title&quot;&gt;&lt;a href=&quot;http://medevice-users.github.io/gallery/index.html&quot; rel=&quot;home&quot; class=&quot;brand&quot;&gt;Diabetes Visualisations&lt;/a&gt;&lt;/div&gt;&lt;/hgroup&gt;&lt;nav id=&quot;navigation&quot;&gt;&lt;ul class=&quot;nav&quot;&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/about&quot;&gt;&lt;a href=&quot;./pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/manifesto&quot;&gt;&lt;a href=&quot;./pages/manifesto&quot; property=&quot;dc:title&quot;&gt;Towards narrative inquiry&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot;&gt;&lt;a href=&quot;./pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/&quot;&gt;&lt;a href=&quot;./&quot; property=&quot;dc:title&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/header&gt;&lt;div id=&quot;main&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;&lt;header class=&quot;entry-header&quot;&gt;&lt;h1&gt;This is a Blog Post&lt;/h1&gt;&lt;p&gt;&lt;span class=&quot;author&quot;&gt;Joyce Lee&lt;/span&gt; on &lt;span class=&quot;when&quot;&gt;Fri Aug 02 2013&lt;/span&gt;&lt;/p&gt;&lt;/header&gt;&lt;div class=&quot;post-content entry-content&quot;&gt;&lt;p&gt;This is a &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/article&gt;&lt;footer&gt;&lt;section id=&quot;related&quot;&gt;&lt;h3&gt;Related Posts&lt;/h3&gt;&lt;nav class=&quot;linklist&quot;&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./pages/hello&quot;&gt;This is a Page&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/blood-glucose-crossfilter&quot;&gt;OneTouch Daily Blood Glucose&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/dexcom-cgm-glucose-trends&quot;&gt;DexCom CGM Glucose Trends&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/heroku-diabetes-dashboard&quot;&gt;Diabetes Dashboard D3&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/medtronic-dashboard&quot;&gt;Medtronic Dashboard&lt;/a&gt;&lt;/li&gt;&lt;/nav&gt;&lt;/section&gt;&lt;/footer&gt;
+
+&lt;!-- START: Livefyre Embed --&gt;
+&lt;div id=&quot;livefyre-comments&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: &quot;livefyre.com&quot;,
+        siteId: &quot;339702&quot;,
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+&lt;/script&gt;
+&lt;!-- END: Livefyre Embed --&gt;
+            
+
+
+&lt;/section&gt;&lt;/div&gt;&lt;hr&gt;&lt;footer class=&quot;container&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//medevice-users.github.io/gallery/index.html/posts/hello&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;reddit-submit-button social-button&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://en.reddit.com/static/button/button1.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;hacker-news-submit-button social-button&quot;&gt;
+	&lt;a href=&quot;http://news.ycombinator.com/submit&quot; class=&quot;hn-share-button&quot; data-url=&quot;http://medevice-users.github.io/gallery/index.html/posts/hello&quot;&gt;Vote on HN&lt;/a&gt;
+	&lt;script&gt;
+		(function(d, t) {
+			var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+				g.src = '//hnbutton.appspot.com/static/hn.min.js';
+			s.parentNode.insertBefore(g, s);
+		}(document, 'script'));
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//medevice-users.github.io/gallery/index.html/posts/hello&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=266367676718271&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div class=&quot;twitter-follow-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/medevice&quot; class=&quot;twitter-follow-button&quot; data-show-count=&quot;false&quot;&gt;Follow @medevice&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;github-follow-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//ghbtns.com/github-btn.html?user=medevice-users&amp;type=follow&amp;count=true&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;165&quot; height=&quot;20&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div&gt;&lt;By&gt;&lt;/By&gt;Medevice collaborators, Joyce Lee, et al&lt;a href=&quot;https://github.com/medevice-users/gallery/blob/master/src/documents/posts/hello.html.md&quot; class=&quot;btn btn-link&quot;&gt;on github.com.&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;font-style:italic; font-size: 12px&quot;&gt;This website was last updated at Fri Aug 02 2013 01:52:19 GMT+0000 (UTC)&lt;/div&gt;&lt;/div&gt;&lt;/footer&gt;&lt;/div&gt;&lt;!-- Scripts--&gt;&lt;script &gt;var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42880063-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/twitter-bootstrap/js/bootstrap.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/log.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/modernizr.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</content>
+    </entry>
+  
+    <entry>
+      <title>Test Post 1</title>
+      <link href="http://medevice-users.github.io/gallery/index.html//posts/test-post-1"/>
+      <updated>2013-08-02T01:51:39.000Z</updated>
+      <id>http://medevice-users.github.io/gallery/index.html//posts/test-post-1</id>
+      <content type="html">&lt;!-- page--&gt;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;!-- Meta--&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;&lt;title&gt;Test Post 1 | Diabetes Visualisations&lt;/title&gt;&lt;meta name=&quot;description&quot; content=&quot;Visualizing diabetes data.  Redesigning diabetes care from the
+bazaar.&quot;&gt;&lt;meta name=&quot;keywords&quot; content=&quot;visualisations, gallery, blog, type 1 diabetes, open source, diabetes design&quot;&gt;&lt;meta name=&quot;author&quot; content=&quot;Joyce Lee&quot;&gt;&lt;base href=&quot;http://medevice-users.github.io/gallery/index.html&quot;&gt;&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;&lt;!-- Fonts--&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_open_sans-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_rokkitt-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Rokkitt:400,700&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;!-- Icons--&gt;&lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;&lt;script src=&quot;vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;!--[if lt IE 9]&gt;&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;&lt;!-- Styles--&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/prettify.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/portfolio-press.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;!-- Markup--&gt;&lt;header id=&quot;branding&quot; class=&quot;navbar navbar-fixed-top&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;hgroup id=&quot;logo&quot;&gt;&lt;div id=&quot;site-title&quot;&gt;&lt;a href=&quot;http://medevice-users.github.io/gallery/index.html&quot; rel=&quot;home&quot; class=&quot;brand&quot;&gt;Diabetes Visualisations&lt;/a&gt;&lt;/div&gt;&lt;/hgroup&gt;&lt;nav id=&quot;navigation&quot;&gt;&lt;ul class=&quot;nav&quot;&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/about&quot;&gt;&lt;a href=&quot;./pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/manifesto&quot;&gt;&lt;a href=&quot;./pages/manifesto&quot; property=&quot;dc:title&quot;&gt;Towards narrative inquiry&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot;&gt;&lt;a href=&quot;./pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/&quot;&gt;&lt;a href=&quot;./&quot; property=&quot;dc:title&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/header&gt;&lt;div id=&quot;main&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;&lt;header class=&quot;entry-header&quot;&gt;&lt;h1&gt;Test Post 1&lt;/h1&gt;&lt;p&gt;&lt;span class=&quot;author&quot;&gt;Joyce Lee&lt;/span&gt; on &lt;span class=&quot;when&quot;&gt;Fri Aug 02 2013&lt;/span&gt;&lt;/p&gt;&lt;/header&gt;&lt;div class=&quot;post-content entry-content&quot;&gt;&lt;p&gt;Hello &lt;strong&gt;world&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;&lt;/article&gt;&lt;footer&gt;&lt;section id=&quot;related&quot;&gt;&lt;h3&gt;Related Posts&lt;/h3&gt;&lt;nav class=&quot;linklist&quot;&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./pages/about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./pages/manifesto&quot;&gt;Towards narrative inquiry&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/test-post-2&quot;&gt;Test Post 2&lt;/a&gt;&lt;/li&gt;&lt;/nav&gt;&lt;/section&gt;&lt;/footer&gt;
+
+&lt;!-- START: Livefyre Embed --&gt;
+&lt;div id=&quot;livefyre-comments&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: &quot;livefyre.com&quot;,
+        siteId: &quot;339702&quot;,
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+&lt;/script&gt;
+&lt;!-- END: Livefyre Embed --&gt;
+            
+
+
+&lt;/section&gt;&lt;/div&gt;&lt;hr&gt;&lt;footer class=&quot;container&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//medevice-users.github.io/gallery/index.html/posts/test-post-1&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;reddit-submit-button social-button&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://en.reddit.com/static/button/button1.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;hacker-news-submit-button social-button&quot;&gt;
+	&lt;a href=&quot;http://news.ycombinator.com/submit&quot; class=&quot;hn-share-button&quot; data-url=&quot;http://medevice-users.github.io/gallery/index.html/posts/test-post-1&quot;&gt;Vote on HN&lt;/a&gt;
+	&lt;script&gt;
+		(function(d, t) {
+			var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+				g.src = '//hnbutton.appspot.com/static/hn.min.js';
+			s.parentNode.insertBefore(g, s);
+		}(document, 'script'));
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//medevice-users.github.io/gallery/index.html/posts/test-post-1&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=266367676718271&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div class=&quot;twitter-follow-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/medevice&quot; class=&quot;twitter-follow-button&quot; data-show-count=&quot;false&quot;&gt;Follow @medevice&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;github-follow-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//ghbtns.com/github-btn.html?user=medevice-users&amp;type=follow&amp;count=true&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;165&quot; height=&quot;20&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div&gt;&lt;By&gt;&lt;/By&gt;Medevice collaborators, Joyce Lee, et al&lt;a href=&quot;https://github.com/medevice-users/gallery/blob/master/src/documents/posts/test-post-1.html.md&quot; class=&quot;btn btn-link&quot;&gt;on github.com.&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;font-style:italic; font-size: 12px&quot;&gt;This website was last updated at Fri Aug 02 2013 01:52:19 GMT+0000 (UTC)&lt;/div&gt;&lt;/div&gt;&lt;/footer&gt;&lt;/div&gt;&lt;!-- Scripts--&gt;&lt;script &gt;var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42880063-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/twitter-bootstrap/js/bootstrap.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/log.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/modernizr.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</content>
+    </entry>
+  
+    <entry>
+      <title>Test Post 2</title>
+      <link href="http://medevice-users.github.io/gallery/index.html//posts/test-post-2"/>
+      <updated>2013-08-02T01:51:39.000Z</updated>
+      <id>http://medevice-users.github.io/gallery/index.html//posts/test-post-2</id>
+      <content type="html">&lt;!-- page--&gt;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;!-- Meta--&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;&lt;title&gt;Test Post 2 | Diabetes Visualisations&lt;/title&gt;&lt;meta name=&quot;description&quot; content=&quot;Visualizing diabetes data.  Redesigning diabetes care from the
+bazaar.&quot;&gt;&lt;meta name=&quot;keywords&quot; content=&quot;visualisations, gallery, blog, type 1 diabetes, open source, diabetes design&quot;&gt;&lt;meta name=&quot;author&quot; content=&quot;Joyce Lee&quot;&gt;&lt;base href=&quot;http://medevice-users.github.io/gallery/index.html&quot;&gt;&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;&lt;!-- Fonts--&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_open_sans-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_rokkitt-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Rokkitt:400,700&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;!-- Icons--&gt;&lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;&lt;script src=&quot;vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;!--[if lt IE 9]&gt;&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;&lt;!-- Styles--&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/prettify.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/portfolio-press.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;!-- Markup--&gt;&lt;header id=&quot;branding&quot; class=&quot;navbar navbar-fixed-top&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;hgroup id=&quot;logo&quot;&gt;&lt;div id=&quot;site-title&quot;&gt;&lt;a href=&quot;http://medevice-users.github.io/gallery/index.html&quot; rel=&quot;home&quot; class=&quot;brand&quot;&gt;Diabetes Visualisations&lt;/a&gt;&lt;/div&gt;&lt;/hgroup&gt;&lt;nav id=&quot;navigation&quot;&gt;&lt;ul class=&quot;nav&quot;&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/about&quot;&gt;&lt;a href=&quot;./pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/manifesto&quot;&gt;&lt;a href=&quot;./pages/manifesto&quot; property=&quot;dc:title&quot;&gt;Towards narrative inquiry&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot;&gt;&lt;a href=&quot;./pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/&quot;&gt;&lt;a href=&quot;./&quot; property=&quot;dc:title&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/header&gt;&lt;div id=&quot;main&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;&lt;header class=&quot;entry-header&quot;&gt;&lt;h1&gt;Test Post 2&lt;/h1&gt;&lt;p&gt;&lt;span class=&quot;author&quot;&gt;Joyce Lee&lt;/span&gt; on &lt;span class=&quot;when&quot;&gt;Fri Aug 02 2013&lt;/span&gt;&lt;/p&gt;&lt;/header&gt;&lt;div class=&quot;post-content entry-content&quot;&gt;&lt;p&gt;Hello &lt;strong&gt;world&lt;/strong&gt;, again.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;&lt;/article&gt;&lt;footer&gt;&lt;section id=&quot;related&quot;&gt;&lt;h3&gt;Related Posts&lt;/h3&gt;&lt;nav class=&quot;linklist&quot;&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./pages/about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./pages/manifesto&quot;&gt;Towards narrative inquiry&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/test-post-1&quot;&gt;Test Post 1&lt;/a&gt;&lt;/li&gt;&lt;/nav&gt;&lt;/section&gt;&lt;/footer&gt;
+
+&lt;!-- START: Livefyre Embed --&gt;
+&lt;div id=&quot;livefyre-comments&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: &quot;livefyre.com&quot;,
+        siteId: &quot;339702&quot;,
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+&lt;/script&gt;
+&lt;!-- END: Livefyre Embed --&gt;
+            
+
+
+&lt;/section&gt;&lt;/div&gt;&lt;hr&gt;&lt;footer class=&quot;container&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//medevice-users.github.io/gallery/index.html/posts/test-post-2&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;reddit-submit-button social-button&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://en.reddit.com/static/button/button1.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;hacker-news-submit-button social-button&quot;&gt;
+	&lt;a href=&quot;http://news.ycombinator.com/submit&quot; class=&quot;hn-share-button&quot; data-url=&quot;http://medevice-users.github.io/gallery/index.html/posts/test-post-2&quot;&gt;Vote on HN&lt;/a&gt;
+	&lt;script&gt;
+		(function(d, t) {
+			var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+				g.src = '//hnbutton.appspot.com/static/hn.min.js';
+			s.parentNode.insertBefore(g, s);
+		}(document, 'script'));
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//medevice-users.github.io/gallery/index.html/posts/test-post-2&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=266367676718271&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div class=&quot;twitter-follow-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/medevice&quot; class=&quot;twitter-follow-button&quot; data-show-count=&quot;false&quot;&gt;Follow @medevice&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;github-follow-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//ghbtns.com/github-btn.html?user=medevice-users&amp;type=follow&amp;count=true&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;165&quot; height=&quot;20&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div&gt;&lt;By&gt;&lt;/By&gt;Medevice collaborators, Joyce Lee, et al&lt;a href=&quot;https://github.com/medevice-users/gallery/blob/master/src/documents/posts/test-post-2.html.md&quot; class=&quot;btn btn-link&quot;&gt;on github.com.&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;font-style:italic; font-size: 12px&quot;&gt;This website was last updated at Fri Aug 02 2013 01:52:19 GMT+0000 (UTC)&lt;/div&gt;&lt;/div&gt;&lt;/footer&gt;&lt;/div&gt;&lt;!-- Scripts--&gt;&lt;script &gt;var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42880063-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/twitter-bootstrap/js/bootstrap.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/log.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/modernizr.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</content>
+    </entry>
+  
+    <entry>
+      <title>OneTouch Daily Blood Glucose</title>
+      <link href="http://medevice-users.github.io/gallery/index.html//posts/blood-glucose-crossfilter"/>
+      <updated>2013-07-16T00:00:00.000Z</updated>
+      <id>http://medevice-users.github.io/gallery/index.html//posts/blood-glucose-crossfilter</id>
+      <content type="html">&lt;!-- page--&gt;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;!-- Meta--&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;&lt;title&gt;OneTouch Daily Blood Glucose | Diabetes Visualisations&lt;/title&gt;&lt;meta name=&quot;description&quot; content=&quot;Visualizing diabetes data.  Redesigning diabetes care from the
+bazaar.&quot;&gt;&lt;meta name=&quot;keywords&quot; content=&quot;visualisations, gallery, blog, type 1 diabetes, open source, diabetes design&quot;&gt;&lt;meta name=&quot;author&quot; content=&quot;Joyce Lee&quot;&gt;&lt;base href=&quot;http://medevice-users.github.io/gallery/index.html&quot;&gt;&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;&lt;!-- Fonts--&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_open_sans-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_rokkitt-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Rokkitt:400,700&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;!-- Icons--&gt;&lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;&lt;script src=&quot;vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;!--[if lt IE 9]&gt;&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;&lt;!-- Styles--&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/prettify.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/portfolio-press.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;!-- Markup--&gt;&lt;header id=&quot;branding&quot; class=&quot;navbar navbar-fixed-top&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;hgroup id=&quot;logo&quot;&gt;&lt;div id=&quot;site-title&quot;&gt;&lt;a href=&quot;http://medevice-users.github.io/gallery/index.html&quot; rel=&quot;home&quot; class=&quot;brand&quot;&gt;Diabetes Visualisations&lt;/a&gt;&lt;/div&gt;&lt;/hgroup&gt;&lt;nav id=&quot;navigation&quot;&gt;&lt;ul class=&quot;nav&quot;&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/about&quot;&gt;&lt;a href=&quot;./pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/manifesto&quot;&gt;&lt;a href=&quot;./pages/manifesto&quot; property=&quot;dc:title&quot;&gt;Towards narrative inquiry&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot;&gt;&lt;a href=&quot;./pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/&quot;&gt;&lt;a href=&quot;./&quot; property=&quot;dc:title&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/header&gt;&lt;div id=&quot;main&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;&lt;header class=&quot;entry-header&quot;&gt;&lt;h1&gt;OneTouch Daily Blood Glucose&lt;/h1&gt;&lt;p&gt;&lt;span class=&quot;author&quot;&gt;Joyce Lee&lt;/span&gt; on &lt;span class=&quot;when&quot;&gt;Tue Jul 16 2013&lt;/span&gt;&lt;/p&gt;&lt;/header&gt;&lt;div class=&quot;post-content entry-content&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://diabetesvisualization.t1dtechnology.info/wp-content/uploads/2013/07/OneTouch.png&quot;&gt;&lt;img src=&quot;http://diabetesvisualization.t1dtechnology.info/wp-content/uploads/2013/07/OneTouch.png&quot; alt=&quot;OneTouch&quot; width=&quot;736&quot; height=&quot;286&quot; class=&quot;alignnone size-full wp-image-95&quot; scale=&quot;0&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;vendor/raty.js&quot;&gt;&lt;/script&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.rating H6 {
+  display: block;
+  float: left;
+  font-weight: bold;
+  font-size: 95%;
+  width: 16ex;
+
+}
+.rating {
+  overflow: auto;
+}
+.rating .ratings {
+  float: left;
+}
+.rating .hint {
+  display: none;
+}
+
+.rating img {
+  border: 0;
+}
+
+&lt;/style&gt;
+
+
+&lt;section&gt;
+&lt;div class=&quot;summary&quot;&gt;
+  &lt;h4&gt;Rate this visualisation
+    &lt;span id=&quot;rating_summary&quot;&gt;&lt;i class=&quot;icon-star&quot;&gt;*&lt;/i&gt;&lt;/span&gt;
+  &lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;rating hinted&quot;&gt;
+  &lt;span class=&quot;hint&quot;&gt;harmful&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;not useful&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;adequate&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;usable&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;excellent&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;indispensible&lt;/span&gt;
+  &lt;h6&gt;&lt;label&gt;Usefulness&lt;/label&gt;&lt;/h6&gt;
+  &lt;div class=&quot;star ratings&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;rating&quot;&gt;
+  &lt;h6&gt;&lt;label&gt;Uniqueness&lt;/label&gt;&lt;/h6&gt;
+  &lt;div class=&quot;star ratings&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;rating hinted&quot;&gt;
+  &lt;h6&gt;&lt;label&gt;Beauty&lt;/label&gt;&lt;/h6&gt;
+  &lt;span class=&quot;hint&quot;&gt;fewer like these&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;not my taste&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;seems ok&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;wow&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;elegant&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;sublime&lt;/span&gt;
+  &lt;span class=&quot;star ratings&quot;&gt; &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function ( ) {
+
+  function submit_rating (score, evt) {
+    var cat = 'ratings',
+        label = $(this).closest('.rating')
+                       .find('LABEL').text( ),
+        hints = $(this).closest('.rating.hinted').find('.hint'),
+        data
+    ;
+    if (hints[score]) {
+      score = $(hints[score]).text( ) + '-' + score;
+    }
+    data = ['_trackEvent', cat, label, score.toString( )];
+    if ($('.debug').is('.debug')) {
+      console.log('submit to GA', score, evt, &quot;DATA&quot;, data);
+    }
+    _gaq.push(data);
+  }
+
+  $('.rating.hinted').each(function ( ) {
+    var hints = [ ];
+    $(this).find('.hint').each(function ( ) {
+      hints.push($(this).text());
+    });
+    $(this).find('.star.ratings').raty({
+        path: 'img'
+      , click: submit_rating
+      , target: '#rating_summary'
+      , number: hints.length
+      , hints: hints
+    }).addClass('initialized');
+  });
+  $('.star.ratings').not('.initialized').raty({
+      path: 'img'
+    , click: submit_rating
+    , target: '#rating_summary'
+  }).addClass('initialized');
+
+});
+&lt;/script&gt;
+
+
+
+&lt;/div&gt;&lt;/article&gt;&lt;footer&gt;&lt;section id=&quot;related&quot;&gt;&lt;h3&gt;Related Posts&lt;/h3&gt;&lt;nav class=&quot;linklist&quot;&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/dexcom-cgm-glucose-trends&quot;&gt;DexCom CGM Glucose Trends&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/hello&quot;&gt;This is a Blog Post&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/heroku-diabetes-dashboard&quot;&gt;Diabetes Dashboard D3&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/medtronic-dashboard&quot;&gt;Medtronic Dashboard&lt;/a&gt;&lt;/li&gt;&lt;/nav&gt;&lt;/section&gt;&lt;/footer&gt;
+
+&lt;!-- START: Livefyre Embed --&gt;
+&lt;div id=&quot;livefyre-comments&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: &quot;livefyre.com&quot;,
+        siteId: &quot;339702&quot;,
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+&lt;/script&gt;
+&lt;!-- END: Livefyre Embed --&gt;
+            
+
+
+&lt;/section&gt;&lt;/div&gt;&lt;hr&gt;&lt;footer class=&quot;container&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//medevice-users.github.io/gallery/index.html/posts/blood-glucose-crossfilter&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;reddit-submit-button social-button&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://en.reddit.com/static/button/button1.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;hacker-news-submit-button social-button&quot;&gt;
+	&lt;a href=&quot;http://news.ycombinator.com/submit&quot; class=&quot;hn-share-button&quot; data-url=&quot;http://medevice-users.github.io/gallery/index.html/posts/blood-glucose-crossfilter&quot;&gt;Vote on HN&lt;/a&gt;
+	&lt;script&gt;
+		(function(d, t) {
+			var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+				g.src = '//hnbutton.appspot.com/static/hn.min.js';
+			s.parentNode.insertBefore(g, s);
+		}(document, 'script'));
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//medevice-users.github.io/gallery/index.html/posts/blood-glucose-crossfilter&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=266367676718271&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div class=&quot;twitter-follow-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/medevice&quot; class=&quot;twitter-follow-button&quot; data-show-count=&quot;false&quot;&gt;Follow @medevice&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;github-follow-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//ghbtns.com/github-btn.html?user=medevice-users&amp;type=follow&amp;count=true&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;165&quot; height=&quot;20&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div&gt;&lt;By&gt;&lt;/By&gt;Medevice collaborators, Joyce Lee, et al&lt;a href=&quot;https://github.com/medevice-users/gallery/blob/master/src/documents/posts/blood-glucose-crossfilter.html.markdown&quot; class=&quot;btn btn-link&quot;&gt;on github.com.&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;font-style:italic; font-size: 12px&quot;&gt;This website was last updated at Fri Aug 02 2013 01:52:19 GMT+0000 (UTC)&lt;/div&gt;&lt;/div&gt;&lt;/footer&gt;&lt;/div&gt;&lt;!-- Scripts--&gt;&lt;script &gt;var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42880063-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/twitter-bootstrap/js/bootstrap.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/log.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/modernizr.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</content>
+    </entry>
+  
+    <entry>
+      <title>DexCom CGM Glucose Trends</title>
+      <link href="http://medevice-users.github.io/gallery/index.html//posts/dexcom-cgm-glucose-trends"/>
+      <updated>2013-07-16T00:00:00.000Z</updated>
+      <id>http://medevice-users.github.io/gallery/index.html//posts/dexcom-cgm-glucose-trends</id>
+      <content type="html">&lt;!-- page--&gt;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;!-- Meta--&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;&lt;title&gt;DexCom CGM Glucose Trends | Diabetes Visualisations&lt;/title&gt;&lt;meta name=&quot;description&quot; content=&quot;Visualizing diabetes data.  Redesigning diabetes care from the
+bazaar.&quot;&gt;&lt;meta name=&quot;keywords&quot; content=&quot;visualisations, gallery, blog, type 1 diabetes, open source, diabetes design&quot;&gt;&lt;meta name=&quot;author&quot; content=&quot;Joyce Lee&quot;&gt;&lt;base href=&quot;http://medevice-users.github.io/gallery/index.html&quot;&gt;&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;&lt;!-- Fonts--&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_open_sans-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_rokkitt-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Rokkitt:400,700&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;!-- Icons--&gt;&lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;&lt;script src=&quot;vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;!--[if lt IE 9]&gt;&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;&lt;!-- Styles--&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/prettify.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/portfolio-press.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;!-- Markup--&gt;&lt;header id=&quot;branding&quot; class=&quot;navbar navbar-fixed-top&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;hgroup id=&quot;logo&quot;&gt;&lt;div id=&quot;site-title&quot;&gt;&lt;a href=&quot;http://medevice-users.github.io/gallery/index.html&quot; rel=&quot;home&quot; class=&quot;brand&quot;&gt;Diabetes Visualisations&lt;/a&gt;&lt;/div&gt;&lt;/hgroup&gt;&lt;nav id=&quot;navigation&quot;&gt;&lt;ul class=&quot;nav&quot;&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/about&quot;&gt;&lt;a href=&quot;./pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/manifesto&quot;&gt;&lt;a href=&quot;./pages/manifesto&quot; property=&quot;dc:title&quot;&gt;Towards narrative inquiry&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot;&gt;&lt;a href=&quot;./pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/&quot;&gt;&lt;a href=&quot;./&quot; property=&quot;dc:title&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/header&gt;&lt;div id=&quot;main&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;&lt;header class=&quot;entry-header&quot;&gt;&lt;h1&gt;DexCom CGM Glucose Trends&lt;/h1&gt;&lt;p&gt;&lt;span class=&quot;author&quot;&gt;Joyce Lee&lt;/span&gt; on &lt;span class=&quot;when&quot;&gt;Tue Jul 16 2013&lt;/span&gt;&lt;/p&gt;&lt;/header&gt;&lt;div class=&quot;post-content entry-content&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://diabetesvisualization.t1dtechnology.info/wp-content/uploads/2013/07/DexComCGM-Glucose-Trends.png&quot;&gt;&lt;img src=&quot;http://diabetesvisualization.t1dtechnology.info/wp-content/uploads/2013/07/DexComCGM-Glucose-Trends.png&quot; alt=&quot;DexComCGM Glucose Trends&quot; width=&quot;1060&quot; height=&quot;461&quot; class=&quot;alignnone size-full wp-image-89&quot; scale=&quot;0&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;vendor/raty.js&quot;&gt;&lt;/script&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.rating H6 {
+  display: block;
+  float: left;
+  font-weight: bold;
+  font-size: 95%;
+  width: 16ex;
+
+}
+.rating {
+  overflow: auto;
+}
+.rating .ratings {
+  float: left;
+}
+.rating .hint {
+  display: none;
+}
+
+.rating img {
+  border: 0;
+}
+
+&lt;/style&gt;
+
+
+&lt;section&gt;
+&lt;div class=&quot;summary&quot;&gt;
+  &lt;h4&gt;Rate this visualisation
+    &lt;span id=&quot;rating_summary&quot;&gt;&lt;i class=&quot;icon-star&quot;&gt;*&lt;/i&gt;&lt;/span&gt;
+  &lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;rating hinted&quot;&gt;
+  &lt;span class=&quot;hint&quot;&gt;harmful&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;not useful&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;adequate&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;usable&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;excellent&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;indispensible&lt;/span&gt;
+  &lt;h6&gt;&lt;label&gt;Usefulness&lt;/label&gt;&lt;/h6&gt;
+  &lt;div class=&quot;star ratings&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;rating&quot;&gt;
+  &lt;h6&gt;&lt;label&gt;Uniqueness&lt;/label&gt;&lt;/h6&gt;
+  &lt;div class=&quot;star ratings&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;rating hinted&quot;&gt;
+  &lt;h6&gt;&lt;label&gt;Beauty&lt;/label&gt;&lt;/h6&gt;
+  &lt;span class=&quot;hint&quot;&gt;fewer like these&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;not my taste&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;seems ok&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;wow&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;elegant&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;sublime&lt;/span&gt;
+  &lt;span class=&quot;star ratings&quot;&gt; &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function ( ) {
+
+  function submit_rating (score, evt) {
+    var cat = 'ratings',
+        label = $(this).closest('.rating')
+                       .find('LABEL').text( ),
+        hints = $(this).closest('.rating.hinted').find('.hint'),
+        data
+    ;
+    if (hints[score]) {
+      score = $(hints[score]).text( ) + '-' + score;
+    }
+    data = ['_trackEvent', cat, label, score.toString( )];
+    if ($('.debug').is('.debug')) {
+      console.log('submit to GA', score, evt, &quot;DATA&quot;, data);
+    }
+    _gaq.push(data);
+  }
+
+  $('.rating.hinted').each(function ( ) {
+    var hints = [ ];
+    $(this).find('.hint').each(function ( ) {
+      hints.push($(this).text());
+    });
+    $(this).find('.star.ratings').raty({
+        path: 'img'
+      , click: submit_rating
+      , target: '#rating_summary'
+      , number: hints.length
+      , hints: hints
+    }).addClass('initialized');
+  });
+  $('.star.ratings').not('.initialized').raty({
+      path: 'img'
+    , click: submit_rating
+    , target: '#rating_summary'
+  }).addClass('initialized');
+
+});
+&lt;/script&gt;
+
+
+
+&lt;/div&gt;&lt;/article&gt;&lt;footer&gt;&lt;section id=&quot;related&quot;&gt;&lt;h3&gt;Related Posts&lt;/h3&gt;&lt;nav class=&quot;linklist&quot;&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/blood-glucose-crossfilter&quot;&gt;OneTouch Daily Blood Glucose&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/hello&quot;&gt;This is a Blog Post&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/heroku-diabetes-dashboard&quot;&gt;Diabetes Dashboard D3&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/medtronic-dashboard&quot;&gt;Medtronic Dashboard&lt;/a&gt;&lt;/li&gt;&lt;/nav&gt;&lt;/section&gt;&lt;/footer&gt;
+
+&lt;!-- START: Livefyre Embed --&gt;
+&lt;div id=&quot;livefyre-comments&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: &quot;livefyre.com&quot;,
+        siteId: &quot;339702&quot;,
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+&lt;/script&gt;
+&lt;!-- END: Livefyre Embed --&gt;
+            
+
+
+&lt;/section&gt;&lt;/div&gt;&lt;hr&gt;&lt;footer class=&quot;container&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//medevice-users.github.io/gallery/index.html/posts/dexcom-cgm-glucose-trends&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;reddit-submit-button social-button&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://en.reddit.com/static/button/button1.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;hacker-news-submit-button social-button&quot;&gt;
+	&lt;a href=&quot;http://news.ycombinator.com/submit&quot; class=&quot;hn-share-button&quot; data-url=&quot;http://medevice-users.github.io/gallery/index.html/posts/dexcom-cgm-glucose-trends&quot;&gt;Vote on HN&lt;/a&gt;
+	&lt;script&gt;
+		(function(d, t) {
+			var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+				g.src = '//hnbutton.appspot.com/static/hn.min.js';
+			s.parentNode.insertBefore(g, s);
+		}(document, 'script'));
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//medevice-users.github.io/gallery/index.html/posts/dexcom-cgm-glucose-trends&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=266367676718271&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div class=&quot;twitter-follow-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/medevice&quot; class=&quot;twitter-follow-button&quot; data-show-count=&quot;false&quot;&gt;Follow @medevice&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;github-follow-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//ghbtns.com/github-btn.html?user=medevice-users&amp;type=follow&amp;count=true&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;165&quot; height=&quot;20&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div&gt;&lt;By&gt;&lt;/By&gt;Medevice collaborators, Joyce Lee, et al&lt;a href=&quot;https://github.com/medevice-users/gallery/blob/master/src/documents/posts/dexcom-cgm-glucose-trends.html.markdown&quot; class=&quot;btn btn-link&quot;&gt;on github.com.&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;font-style:italic; font-size: 12px&quot;&gt;This website was last updated at Fri Aug 02 2013 01:52:19 GMT+0000 (UTC)&lt;/div&gt;&lt;/div&gt;&lt;/footer&gt;&lt;/div&gt;&lt;!-- Scripts--&gt;&lt;script &gt;var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42880063-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/twitter-bootstrap/js/bootstrap.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/log.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/modernizr.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</content>
+    </entry>
+  
+    <entry>
+      <title>Diabetes Dashboard D3</title>
+      <link href="http://medevice-users.github.io/gallery/index.html//posts/heroku-diabetes-dashboard"/>
+      <updated>2013-07-16T00:00:00.000Z</updated>
+      <id>http://medevice-users.github.io/gallery/index.html//posts/heroku-diabetes-dashboard</id>
+      <content type="html">&lt;!-- page--&gt;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;!-- Meta--&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;&lt;title&gt;Diabetes Dashboard D3 | Diabetes Visualisations&lt;/title&gt;&lt;meta name=&quot;description&quot; content=&quot;Visualizing diabetes data.  Redesigning diabetes care from the
+bazaar.&quot;&gt;&lt;meta name=&quot;keywords&quot; content=&quot;visualisations, gallery, blog, type 1 diabetes, open source, diabetes design&quot;&gt;&lt;meta name=&quot;author&quot; content=&quot;Joyce Lee&quot;&gt;&lt;base href=&quot;http://medevice-users.github.io/gallery/index.html&quot;&gt;&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;&lt;!-- Fonts--&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_open_sans-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_rokkitt-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Rokkitt:400,700&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;!-- Icons--&gt;&lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;&lt;script src=&quot;vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;!--[if lt IE 9]&gt;&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;&lt;!-- Styles--&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/prettify.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/portfolio-press.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;!-- Markup--&gt;&lt;header id=&quot;branding&quot; class=&quot;navbar navbar-fixed-top&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;hgroup id=&quot;logo&quot;&gt;&lt;div id=&quot;site-title&quot;&gt;&lt;a href=&quot;http://medevice-users.github.io/gallery/index.html&quot; rel=&quot;home&quot; class=&quot;brand&quot;&gt;Diabetes Visualisations&lt;/a&gt;&lt;/div&gt;&lt;/hgroup&gt;&lt;nav id=&quot;navigation&quot;&gt;&lt;ul class=&quot;nav&quot;&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/about&quot;&gt;&lt;a href=&quot;./pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/manifesto&quot;&gt;&lt;a href=&quot;./pages/manifesto&quot; property=&quot;dc:title&quot;&gt;Towards narrative inquiry&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot;&gt;&lt;a href=&quot;./pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/&quot;&gt;&lt;a href=&quot;./&quot; property=&quot;dc:title&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/header&gt;&lt;div id=&quot;main&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;&lt;header class=&quot;entry-header&quot;&gt;&lt;h1&gt;Diabetes Dashboard D3&lt;/h1&gt;&lt;p&gt;&lt;span class=&quot;author&quot;&gt;Joyce Lee&lt;/span&gt; on &lt;span class=&quot;when&quot;&gt;Tue Jul 16 2013&lt;/span&gt;&lt;/p&gt;&lt;/header&gt;&lt;div class=&quot;post-content entry-content&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://diabetesvisualization.t1dtechnology.info/wp-content/uploads/2013/07/d3diabetesdashboard.png&quot;&gt;&lt;img src=&quot;http://diabetesvisualization.t1dtechnology.info/wp-content/uploads/2013/07/d3diabetesdashboard.png&quot; alt=&quot;d3diabetesdashboard&quot; width=&quot;1011&quot; height=&quot;604&quot; class=&quot;alignnone size-full wp-image-102&quot; scale=&quot;0&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This example was done by a few students in just a few weeks.&lt;/p&gt;
+
+
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;vendor/raty.js&quot;&gt;&lt;/script&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.rating H6 {
+  display: block;
+  float: left;
+  font-weight: bold;
+  font-size: 95%;
+  width: 16ex;
+
+}
+.rating {
+  overflow: auto;
+}
+.rating .ratings {
+  float: left;
+}
+.rating .hint {
+  display: none;
+}
+
+.rating img {
+  border: 0;
+}
+
+&lt;/style&gt;
+
+
+&lt;section&gt;
+&lt;div class=&quot;summary&quot;&gt;
+  &lt;h4&gt;Rate this visualisation
+    &lt;span id=&quot;rating_summary&quot;&gt;&lt;i class=&quot;icon-star&quot;&gt;*&lt;/i&gt;&lt;/span&gt;
+  &lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;rating hinted&quot;&gt;
+  &lt;span class=&quot;hint&quot;&gt;harmful&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;not useful&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;adequate&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;usable&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;excellent&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;indispensible&lt;/span&gt;
+  &lt;h6&gt;&lt;label&gt;Usefulness&lt;/label&gt;&lt;/h6&gt;
+  &lt;div class=&quot;star ratings&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;rating&quot;&gt;
+  &lt;h6&gt;&lt;label&gt;Uniqueness&lt;/label&gt;&lt;/h6&gt;
+  &lt;div class=&quot;star ratings&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;rating hinted&quot;&gt;
+  &lt;h6&gt;&lt;label&gt;Beauty&lt;/label&gt;&lt;/h6&gt;
+  &lt;span class=&quot;hint&quot;&gt;fewer like these&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;not my taste&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;seems ok&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;wow&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;elegant&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;sublime&lt;/span&gt;
+  &lt;span class=&quot;star ratings&quot;&gt; &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function ( ) {
+
+  function submit_rating (score, evt) {
+    var cat = 'ratings',
+        label = $(this).closest('.rating')
+                       .find('LABEL').text( ),
+        hints = $(this).closest('.rating.hinted').find('.hint'),
+        data
+    ;
+    if (hints[score]) {
+      score = $(hints[score]).text( ) + '-' + score;
+    }
+    data = ['_trackEvent', cat, label, score.toString( )];
+    if ($('.debug').is('.debug')) {
+      console.log('submit to GA', score, evt, &quot;DATA&quot;, data);
+    }
+    _gaq.push(data);
+  }
+
+  $('.rating.hinted').each(function ( ) {
+    var hints = [ ];
+    $(this).find('.hint').each(function ( ) {
+      hints.push($(this).text());
+    });
+    $(this).find('.star.ratings').raty({
+        path: 'img'
+      , click: submit_rating
+      , target: '#rating_summary'
+      , number: hints.length
+      , hints: hints
+    }).addClass('initialized');
+  });
+  $('.star.ratings').not('.initialized').raty({
+      path: 'img'
+    , click: submit_rating
+    , target: '#rating_summary'
+  }).addClass('initialized');
+
+});
+&lt;/script&gt;
+
+
+
+&lt;/div&gt;&lt;/article&gt;&lt;footer&gt;&lt;section id=&quot;related&quot;&gt;&lt;h3&gt;Related Posts&lt;/h3&gt;&lt;nav class=&quot;linklist&quot;&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/blood-glucose-crossfilter&quot;&gt;OneTouch Daily Blood Glucose&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/dexcom-cgm-glucose-trends&quot;&gt;DexCom CGM Glucose Trends&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/hello&quot;&gt;This is a Blog Post&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/medtronic-dashboard&quot;&gt;Medtronic Dashboard&lt;/a&gt;&lt;/li&gt;&lt;/nav&gt;&lt;/section&gt;&lt;/footer&gt;
+
+&lt;!-- START: Livefyre Embed --&gt;
+&lt;div id=&quot;livefyre-comments&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: &quot;livefyre.com&quot;,
+        siteId: &quot;339702&quot;,
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+&lt;/script&gt;
+&lt;!-- END: Livefyre Embed --&gt;
+            
+
+
+&lt;/section&gt;&lt;/div&gt;&lt;hr&gt;&lt;footer class=&quot;container&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//medevice-users.github.io/gallery/index.html/posts/heroku-diabetes-dashboard&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;reddit-submit-button social-button&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://en.reddit.com/static/button/button1.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;hacker-news-submit-button social-button&quot;&gt;
+	&lt;a href=&quot;http://news.ycombinator.com/submit&quot; class=&quot;hn-share-button&quot; data-url=&quot;http://medevice-users.github.io/gallery/index.html/posts/heroku-diabetes-dashboard&quot;&gt;Vote on HN&lt;/a&gt;
+	&lt;script&gt;
+		(function(d, t) {
+			var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+				g.src = '//hnbutton.appspot.com/static/hn.min.js';
+			s.parentNode.insertBefore(g, s);
+		}(document, 'script'));
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//medevice-users.github.io/gallery/index.html/posts/heroku-diabetes-dashboard&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=266367676718271&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div class=&quot;twitter-follow-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/medevice&quot; class=&quot;twitter-follow-button&quot; data-show-count=&quot;false&quot;&gt;Follow @medevice&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;github-follow-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//ghbtns.com/github-btn.html?user=medevice-users&amp;type=follow&amp;count=true&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;165&quot; height=&quot;20&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div&gt;&lt;By&gt;&lt;/By&gt;Medevice collaborators, Joyce Lee, et al&lt;a href=&quot;https://github.com/medevice-users/gallery/blob/master/src/documents/posts/heroku-diabetes-dashboard.html.markdown&quot; class=&quot;btn btn-link&quot;&gt;on github.com.&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;font-style:italic; font-size: 12px&quot;&gt;This website was last updated at Fri Aug 02 2013 01:52:19 GMT+0000 (UTC)&lt;/div&gt;&lt;/div&gt;&lt;/footer&gt;&lt;/div&gt;&lt;!-- Scripts--&gt;&lt;script &gt;var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42880063-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/twitter-bootstrap/js/bootstrap.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/log.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/modernizr.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</content>
+    </entry>
+  
+    <entry>
+      <title>Medtronic Dashboard</title>
+      <link href="http://medevice-users.github.io/gallery/index.html//posts/medtronic-dashboard"/>
+      <updated>2013-07-16T00:00:00.000Z</updated>
+      <id>http://medevice-users.github.io/gallery/index.html//posts/medtronic-dashboard</id>
+      <content type="html">&lt;!-- page--&gt;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;!-- Meta--&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;&lt;title&gt;Medtronic Dashboard | Diabetes Visualisations&lt;/title&gt;&lt;meta name=&quot;description&quot; content=&quot;Visualizing diabetes data.  Redesigning diabetes care from the
+bazaar.&quot;&gt;&lt;meta name=&quot;keywords&quot; content=&quot;visualisations, gallery, blog, type 1 diabetes, open source, diabetes design&quot;&gt;&lt;meta name=&quot;author&quot; content=&quot;Joyce Lee&quot;&gt;&lt;base href=&quot;http://medevice-users.github.io/gallery/index.html&quot;&gt;&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;&lt;!-- Fonts--&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_open_sans-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;link rel=&quot;stylesheet&quot; id=&quot;portfoliopress_rokkitt-css&quot; href=&quot;http://fonts.googleapis.com/css?family=Rokkitt:400,700&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&lt;!-- Icons--&gt;&lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;&lt;script src=&quot;vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;!--[if lt IE 9]&gt;&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;&lt;!-- Styles--&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/prettify.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;vendor/portfolio-press.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;!-- Markup--&gt;&lt;header id=&quot;branding&quot; class=&quot;navbar navbar-fixed-top&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;hgroup id=&quot;logo&quot;&gt;&lt;div id=&quot;site-title&quot;&gt;&lt;a href=&quot;http://medevice-users.github.io/gallery/index.html&quot; rel=&quot;home&quot; class=&quot;brand&quot;&gt;Diabetes Visualisations&lt;/a&gt;&lt;/div&gt;&lt;/hgroup&gt;&lt;nav id=&quot;navigation&quot;&gt;&lt;ul class=&quot;nav&quot;&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/about&quot;&gt;&lt;a href=&quot;./pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/manifesto&quot;&gt;&lt;a href=&quot;./pages/manifesto&quot; property=&quot;dc:title&quot;&gt;Towards narrative inquiry&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot;&gt;&lt;a href=&quot;./pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/&quot;&gt;&lt;a href=&quot;./&quot; property=&quot;dc:title&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/header&gt;&lt;div id=&quot;main&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;&lt;header class=&quot;entry-header&quot;&gt;&lt;h1&gt;Medtronic Dashboard&lt;/h1&gt;&lt;p&gt;&lt;span class=&quot;author&quot;&gt;Joyce Lee&lt;/span&gt; on &lt;span class=&quot;when&quot;&gt;Tue Jul 16 2013&lt;/span&gt;&lt;/p&gt;&lt;/header&gt;&lt;div class=&quot;post-content entry-content&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://diabetesvisualization.t1dtechnology.info/wp-content/uploads/2013/07/medtronic-dashboard.png&quot; alt=&quot;medtronic dashboard&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This is a dashboard that has a dense visualisation of many metrics.&lt;/p&gt;
+
+
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;vendor/raty.js&quot;&gt;&lt;/script&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.rating H6 {
+  display: block;
+  float: left;
+  font-weight: bold;
+  font-size: 95%;
+  width: 16ex;
+
+}
+.rating {
+  overflow: auto;
+}
+.rating .ratings {
+  float: left;
+}
+.rating .hint {
+  display: none;
+}
+
+.rating img {
+  border: 0;
+}
+
+&lt;/style&gt;
+
+
+&lt;section&gt;
+&lt;div class=&quot;summary&quot;&gt;
+  &lt;h4&gt;Rate this visualisation
+    &lt;span id=&quot;rating_summary&quot;&gt;&lt;i class=&quot;icon-star&quot;&gt;*&lt;/i&gt;&lt;/span&gt;
+  &lt;/h4&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;rating hinted&quot;&gt;
+  &lt;span class=&quot;hint&quot;&gt;harmful&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;not useful&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;adequate&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;usable&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;excellent&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;indispensible&lt;/span&gt;
+  &lt;h6&gt;&lt;label&gt;Usefulness&lt;/label&gt;&lt;/h6&gt;
+  &lt;div class=&quot;star ratings&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;rating&quot;&gt;
+  &lt;h6&gt;&lt;label&gt;Uniqueness&lt;/label&gt;&lt;/h6&gt;
+  &lt;div class=&quot;star ratings&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;rating hinted&quot;&gt;
+  &lt;h6&gt;&lt;label&gt;Beauty&lt;/label&gt;&lt;/h6&gt;
+  &lt;span class=&quot;hint&quot;&gt;fewer like these&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;not my taste&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;seems ok&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;wow&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;elegant&lt;/span&gt;
+  &lt;span class=&quot;hint&quot;&gt;sublime&lt;/span&gt;
+  &lt;span class=&quot;star ratings&quot;&gt; &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function ( ) {
+
+  function submit_rating (score, evt) {
+    var cat = 'ratings',
+        label = $(this).closest('.rating')
+                       .find('LABEL').text( ),
+        hints = $(this).closest('.rating.hinted').find('.hint'),
+        data
+    ;
+    if (hints[score]) {
+      score = $(hints[score]).text( ) + '-' + score;
+    }
+    data = ['_trackEvent', cat, label, score.toString( )];
+    if ($('.debug').is('.debug')) {
+      console.log('submit to GA', score, evt, &quot;DATA&quot;, data);
+    }
+    _gaq.push(data);
+  }
+
+  $('.rating.hinted').each(function ( ) {
+    var hints = [ ];
+    $(this).find('.hint').each(function ( ) {
+      hints.push($(this).text());
+    });
+    $(this).find('.star.ratings').raty({
+        path: 'img'
+      , click: submit_rating
+      , target: '#rating_summary'
+      , number: hints.length
+      , hints: hints
+    }).addClass('initialized');
+  });
+  $('.star.ratings').not('.initialized').raty({
+      path: 'img'
+    , click: submit_rating
+    , target: '#rating_summary'
+  }).addClass('initialized');
+
+});
+&lt;/script&gt;
+
+
+
+&lt;/div&gt;&lt;/article&gt;&lt;footer&gt;&lt;section id=&quot;related&quot;&gt;&lt;h3&gt;Related Posts&lt;/h3&gt;&lt;nav class=&quot;linklist&quot;&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/blood-glucose-crossfilter&quot;&gt;OneTouch Daily Blood Glucose&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/dexcom-cgm-glucose-trends&quot;&gt;DexCom CGM Glucose Trends&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Fri Aug 02 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/hello&quot;&gt;This is a Blog Post&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tue Jul 16 2013&lt;/span&gt; &amp;raquo;&amp;nbsp;&lt;a href=&quot;./posts/heroku-diabetes-dashboard&quot;&gt;Diabetes Dashboard D3&lt;/a&gt;&lt;/li&gt;&lt;/nav&gt;&lt;/section&gt;&lt;/footer&gt;
+
+&lt;!-- START: Livefyre Embed --&gt;
+&lt;div id=&quot;livefyre-comments&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: &quot;livefyre.com&quot;,
+        siteId: &quot;339702&quot;,
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+&lt;/script&gt;
+&lt;!-- END: Livefyre Embed --&gt;
+            
+
+
+&lt;/section&gt;&lt;/div&gt;&lt;hr&gt;&lt;footer class=&quot;container&quot;&gt;&lt;div class=&quot;col-width&quot;&gt;&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//medevice-users.github.io/gallery/index.html/posts/medtronic-dashboard&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;reddit-submit-button social-button&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://en.reddit.com/static/button/button1.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;hacker-news-submit-button social-button&quot;&gt;
+	&lt;a href=&quot;http://news.ycombinator.com/submit&quot; class=&quot;hn-share-button&quot; data-url=&quot;http://medevice-users.github.io/gallery/index.html/posts/medtronic-dashboard&quot;&gt;Vote on HN&lt;/a&gt;
+	&lt;script&gt;
+		(function(d, t) {
+			var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+				g.src = '//hnbutton.appspot.com/static/hn.min.js';
+			s.parentNode.insertBefore(g, s);
+		}(document, 'script'));
+	&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//medevice-users.github.io/gallery/index.html/posts/medtronic-dashboard&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=266367676718271&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div class=&quot;twitter-follow-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/medevice&quot; class=&quot;twitter-follow-button&quot; data-show-count=&quot;false&quot;&gt;Follow @medevice&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;&lt;div class=&quot;github-follow-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//ghbtns.com/github-btn.html?user=medevice-users&amp;type=follow&amp;count=true&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;165&quot; height=&quot;20&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div&gt;&lt;By&gt;&lt;/By&gt;Medevice collaborators, Joyce Lee, et al&lt;a href=&quot;https://github.com/medevice-users/gallery/blob/master/src/documents/posts/medtronic-dashboard.html.markdown&quot; class=&quot;btn btn-link&quot;&gt;on github.com.&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;font-style:italic; font-size: 12px&quot;&gt;This website was last updated at Fri Aug 02 2013 01:52:19 GMT+0000 (UTC)&lt;/div&gt;&lt;/div&gt;&lt;/footer&gt;&lt;/div&gt;&lt;!-- Scripts--&gt;&lt;script &gt;var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42880063-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/twitter-bootstrap/js/bootstrap.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/log.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;vendor/modernizr.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</content>
+    </entry>
+  
+</feed>
