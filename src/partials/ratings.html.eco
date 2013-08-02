@@ -70,8 +70,13 @@ $(function ( ) {
     var cat = 'ratings',
         label = $(this).closest('.rating')
                        .find('LABEL').text( ),
-        data = ['_trackEvent', cat, label, score.toString( )]
+        hints = $(this).closest('.rating.hinted').find('.hint'),
+        data
     ;
+    if (hints[score]) {
+      score = $(hints[score]).text( ) + '-' + score;
+    }
+    data = ['_trackEvent', cat, label, score.toString( )];
     if ($('.debug').is('.debug')) {
       console.log('submit to GA', score, evt, "DATA", data);
     }
