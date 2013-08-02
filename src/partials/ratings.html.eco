@@ -70,7 +70,7 @@ $(function ( ) {
     var cat = 'ratings',
         label = $(this).closest('.rating')
                        .find('LABEL').text( ),
-        data = ['_trackEvent', cat, label, score]
+        data = ['_trackEvent', cat, label, score.toString( )]
     ;
     if ($('.debug').is('.debug')) {
       console.log('submit to GA', score, evt, "DATA", data);
